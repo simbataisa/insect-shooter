@@ -512,7 +512,7 @@
       }
 
       function upgradeGun() {
-        const upgradeCost = game.gunLevel * 100;
+        const upgradeCost = game.gunLevel * 50;
         if (game.upgradePoints >= upgradeCost && game.gunLevel < 5) {
           game.upgradePoints -= upgradeCost;
           game.gunLevel++;
